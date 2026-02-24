@@ -1,0 +1,10 @@
+.env
+.env.*
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.claude/
+**/walkthrough*.md
+**/interview_cheatsheet*.md
+interview_2min_script.md

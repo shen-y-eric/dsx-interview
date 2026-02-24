@@ -1,0 +1,19 @@
+Package: descriptiveStats
+Type: Package
+Title: Descriptive Statistics for Numeric Vectors
+Version: 0.1.0
+Authors@R:
+    person("Eric", "Shen", email = "shen.y.eric@gmail.com",
+           role = c("aut", "cre"))
+Description: Provides functions to compute common descriptive statistics (mean, median, mode, first quartile,
+    third quartile, and interquartile range) for numeric vectors. All functions handle NA values
+    and invalid inputs with informative messages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    stats
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
+Roxygen: list(markdown = TRUE)
